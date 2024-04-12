@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar{
+    background-color: aqua;
+    height: 660px;
+    font-family: "Martel", serif;
+    transition: transform  0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 13px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 56px 0;
+}
+
+.sidebar nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /*background-color: aquamarine;*/
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.homecontainer{
+    background-color: red;
+    height: 400px;
+    width: 80vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 30px;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 30px;
+}
+
+.about more{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+.buttons button{ 
+    padding: 9px 5px;
+    border-radius: 28px;
+    color: aliceblue;
+    background-color: rgb(48, 48, 123);
+    font-size: 13px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: rgb(48, 48, 123);
+}
+
+.devpic img{
+    width: 250px;
+    height: 400px;
+}
+
+.container h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Contactcontainer {
+    flex-direction: column;
+    justify-content: right;
+}
+
+.container ul{
+    height: 50px;
+    padding: 20px;
+}
+
+.Contactinfo {
+    margin-right: 0px;
+}
+
+.Contactinfo ul{
+    height: 10px;
+    flex-direction: column;
+}
+
+.Contactinfo li a{
+    text-decoration: none;
+}
+
+.Contactinfo ul li{
+    padding: 0 55px;
+    list-style: none;
+    margin: 18px;
+}
+
+.Contactinfo ul h2{
+    font-family: "Reddit Mono", monospace;
+    margin-top: 12px;
+    padding: 0 63px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.Contactinfo img{
+    height: 20px;
+}
+
+.infocontainer h1{
+    padding-left: 49px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+.infocontainer h2{
+    padding-left: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.infocontainer p{
+    padding-left: 49px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+
+}
+
+.skillcontainer{
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 39px;
+}
+
+.skill {
+    margin: 10px;
+    width: 500px;
+}
+
+.skillname {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding-bottom: 3px;
+    font-size: 20px;
+}
+
+.ps{
+    float: right;
+    margin-bottom: 10px;
+}
+
+.bar-box{
+    background-color: rgb(172, 166, 166);
+    height: 5px;
+    position: relative;
+}
+
+.htmlskill {
+    animation: htmlskill 2s forwards;
+    width: 0%;
+    background: red;
+    height: 5px;
+    -webkit-animation: htmlskill 2s forwards;
+}
+
+.cssskill {
+    animation: cssskill 2s forwards;
+    width: 0%;
+    background: red;
+    height: 5px;
+    -webkit-animation: cssskill 2s forwards;
+}
+
+.javascriptskill {
+    animation: javascriptskill 2s forwards;
+    width: 0%;
+    background: red;
+    height: 5px;
+    -webkit-animation: javascriptskill 2s forwards;
+}
+
+.jqueryskill {
+    animation: jqueryskill 2s forwards;
+    width: 0%;
+    background: red;
+    height: 5px;
+    -webkit-animation: jqueryskill 2s forwards;
+}
+
+.phpskill {
+    animation: phpskill 2s forwards;
+    width: 0%;
+    background: red;
+    height: 5px;
+    -webkit-animation: phpskill 2s forwards;
+}
+
+.mysqlskill {
+    animation: mysqlskill 2s forwards;
+    width: 0%;
+    background: red;
+    height: 5px;
+    -webkit-animation: mysqlskill 2s forwards;
+}
+
+.wordpresskill {
+    animation: wordpresskill 2s forwards;
+    width: 0%;
+    background: red;
+    height: 6px;
+    -webkit-animation: wordpresskill 2s forwards;
+}
+
+.column-right-btn{
+    margin-bottom: 10px;
+}
+
+ .row{
+    margin-right: 50px;
+    float: right;
+}
+
+.row h2{
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.row li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 90px;
+}
+
+@media (max-width: 768px ){
+    .homecontainer{
+        display: block;
+    }
+    .devinfo{
+        display: flex;
+        margin-top: 10px;
+        padding: 30px;
+        width: 100%;
+    }
+    .devpic{
+        margin-top: 50px;
+        padding-bottom: 50px 0;
+        display: flex;
+        justify-content: center;
+        background-color: red;
+    }
+    .buttons{
+        margin-top: 10px;
+    }
+    .Contactinfo ul{
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    .Contactinfo ul{
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+    }
+} 
+
+@keyframes htmlskill{
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes cssskill{
+    to{
+        width: 86%;
+    }
+}
+
+@keyframes javascriptskill{
+    to{
+        width: 80%;
+    }
+}
+
+@keyframes jqueryskill{
+    to{
+        width: 83%; 
+    }
+}
+
+@keyframes phpskill{
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes mysqlskill{
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes wordpresskill{
+    to{
+        width: 90%;
+    }
+}
